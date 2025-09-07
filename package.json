@@ -1,15 +1,18 @@
 {
   "name": "backend-series",
   "version": "1.0.0",
-  "description": "backend , javascript",
+  "description": "this is a backend series of javascript",
   "keywords": [
     "backend"
   ],
   "license": "ISC",
   "author": "abhishek kumar",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon  src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
